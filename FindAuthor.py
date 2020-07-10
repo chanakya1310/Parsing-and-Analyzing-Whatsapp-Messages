@@ -10,7 +10,6 @@ def FindAuthor(s):
         '([\w]+)[\u263a-\U0001f999]+:',    # Name and Emoji              
     ]
     pattern = '^' + '|'.join(patterns)
-    # print(pattern)
     result = re.match(pattern, s)
     if result:
         return True
