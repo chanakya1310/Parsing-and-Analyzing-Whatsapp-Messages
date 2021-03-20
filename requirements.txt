@@ -1,6 +1,6 @@
 bokeh==2.1.1
 emoji==0.5.4
-Jinja2==2.11.2
+Jinja2==2.11.3
 MarkupSafe==1.1.1
 numpy==1.19.0
 packaging==20.4
